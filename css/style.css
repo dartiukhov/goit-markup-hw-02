@@ -54,12 +54,14 @@ body {
 .link.main-link {
   color: var(--accent-color);
 }
+
 .link.email-link:hover,
 .link.email-link:focus {
   color: var(--accent-color);
 }
 
-.link.tel-link {
+.link.tel-link,
+.link.email-link {
   color: var(--second-text-color);
 }
 
@@ -80,6 +82,8 @@ body {
 }
 
 .hero .button {
+  border: none;
+  border-radius: 15px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -107,7 +111,7 @@ body {
 .pecul .text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.14;
   color: var(--second-text-color);
 }
 
@@ -149,6 +153,7 @@ body {
 }
 
 .portfolio .button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
